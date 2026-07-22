@@ -15,7 +15,7 @@
 
 **NEXUS** 是一套面向早期科技团队的 AI 原生组织协作工具。项目从真实组织管理问题出发，将**需求流转**、**知识沉淀**与**组织洞察**连接为可追溯的工作闭环，而非简单地堆砌功能清单。
 
-整个项目由组织发展负责人独立完成——从组织问题定义、机制设计到产品原型落地，将组织管理思维转化为可被工程化的产品系统。
+整个项目由组织发展负责人独立完成——从组织问题定义、机制设计到产品原型落地，将组织管理思维转化为可被工程化的产品能力。
 
 **NEXUS** is an AI-native organization collaboration tool designed for early-stage tech teams. Starting from real organizational pain points, it connects **requirement workflows**, **knowledge accumulation**, and **organizational insights** into a traceable closed loop — rather than simply piling up feature lists.
 
@@ -53,7 +53,7 @@ The entire project was independently completed by an organizational development 
 
 ### 3. 组织洞察与人才 Review
 
-系统汇总目标、项目、质量与协作证据，为人才 Review 提供依据，但不替代管理者判断。
+产品汇总目标、项目、质量与协作证据，为人才 Review 提供依据，但不替代管理者判断。
 
 - 看目标完成，也看交付质量与难度
 - 识别阻塞、风险和数据缺口
@@ -127,7 +127,7 @@ ai-organization-collaboration-tool/
 ├── .nojekyll               # GitHub Pages bypass Jekyll
 ├── README.md               # 项目介绍（本文件）
 └── assets/
-    ├── design-tokens.css   # 设计令牌系统
+    ├── design-tokens.css   # 设计令牌
     ├── shared-components.css # 共享组件
     ├── styles.css          # 首页样式
     ├── light-tech.css      # Light-Tech 视觉主题
@@ -136,7 +136,7 @@ ai-organization-collaboration-tool/
     ├── site.js             # 全局交互逻辑
     ├── framework.js        # 架构页交互 + 流程模拟
     ├── demo.js             # Demo 全部交互逻辑
-    └── motion.js           # 动效系统（滚动、粒子、倾斜等）
+    └── motion.js           # 动效引擎（滚动、粒子、倾斜等）
 ```
 
 ---
@@ -172,7 +172,7 @@ ai-organization-collaboration-tool/
 ## 技术栈 ｜ Tech Stack
 
 - **纯静态前端**：HTML5 + CSS3 + Vanilla JavaScript
-- **视觉系统**：Light-Tech 浅色科技风格，玻璃拟态 + 蓝青渐变 + 克制动效
+- **视觉风格**：Light-Tech 浅色科技风格，玻璃拟态 + 蓝青渐变 + 克制动效
 - **部署平台**：GitHub Pages（无需服务器、无需数据库）
 - **持久化**：浏览器 localStorage
 - **零依赖**：无需 npm install，无需构建工具
@@ -221,12 +221,12 @@ npx http-server -p 8000
 本项目由组织发展负责人独立完成：
 
 - 🧭 **组织问题定义**：识别真实协作断点，完成用户、角色与权限拆解
-- 🏗️ **系统机制设计**：设计三根支柱、五层架构与十步需求主流程
+- 🏗️ **组织机制设计**：设计三根支柱、五层架构与十步需求主流程
 - 🎨 **产品原型落地**：建立功能优先级、落地状态与产品边界
 - 💻 **Web 开发实现**：独立制作完整可交互原型（Vibe Coding）
 - 🔄 **持续迭代**：基于典型用户反馈优化交互与信息架构
 
-核心价值不是"写了一个网页"，而是把**组织机制转译成可被产品化的系统**。
+核心价值不是"写了一个网页"，而是把**组织机制转译成可被产品化的工具**。
 
 ---
 
